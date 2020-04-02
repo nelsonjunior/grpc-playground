@@ -19,7 +19,7 @@ func main() {
 	client := api.NewHelloServiceClient(connection)
 
 	request := &api.HelloRequest{
-		Name: "Nelson",
+		Name: "Nelson Rodrigues",
 	}
 
 	res, err := client.SayHello(context.Background(), request)
