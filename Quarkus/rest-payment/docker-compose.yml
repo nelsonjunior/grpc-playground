@@ -1,0 +1,17 @@
+version: "3.8"
+
+volumes:
+  postgres_payment_db_data:
+    driver: local
+
+services:
+  postgres_payment:
+    container_name: postgres_payment
+    image: postgres
+    volumes:
+      - postgres_payment_db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: payment
+      POSTGRES_PASSWORD: payment
+    ports:
+      - 5432:5432

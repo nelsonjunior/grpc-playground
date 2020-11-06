@@ -1,0 +1,2 @@
+INSERT INTO account (id, accountdescription, accountident, actualbalance, uuid) VALUES (1, 'Conta Corrent', '1244-84', 35000.00, 'ffb71bf2-35d9-41f3-b5dc-5de53c803667');
+INSERT INTO client (id, birth, name, uuid) VALUES (1, '1986-02-02', 'Nelson', 'd80bac91-c86b-4af6-a008-7439e3cf7f12');
