@@ -1,3 +1,3 @@
 # Project architecture
 
-![Project architecture](Quarkus/gRPC.jpg)
+![Project architecture](gRPC.jpg)
